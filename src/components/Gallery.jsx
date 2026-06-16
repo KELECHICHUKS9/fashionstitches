@@ -1,7 +1,9 @@
-// Dynamically import all image assets in `src/assets` so new files
-// (like the photo you attached) appear automatically after they're saved.
+// Dynamically import all image assets in `src/assets` and exclude logo files.
 const modules = import.meta.glob('../assets/*.{jpeg,jpg,png,webp}', { eager: true });
-const images = Object.values(modules).map((m) => m && (m.default || m)).filter(Boolean);
+const images = Object.entries(modules)
+  .filter(([path]) => !path.toLowerCase().includes('logo'))
+  .map(([_, m]) => m && (m.default || m))
+  .filter(Boolean);
 
 const galleryItems = images.map((src, i) => ({
   src,
@@ -23,13 +25,17 @@ export default function Gallery() {
           </div>
         </div>
 
-        <div className="masonry">
+        <div className="gallery-grid">
           {galleryItems.map((item, index) => (
-            <div key={index} className="masonry-item reveal overflow-hidden" style={{ transitionDelay: item.delay }}>
+            <div
+              key={index}
+              className={`gallery-item reveal ${index === 0 ? 'featured' : ''}`}
+              style={{ transitionDelay: item.delay }}
+            >
               <img
                 alt={item.alt}
                 loading="lazy"
-                className="w-full h-auto block object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                className="w-full h-full block object-cover"
                 src={item.src}
               />
             </div>
