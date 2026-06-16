@@ -11,9 +11,14 @@ export default function Contact() {
       <div>
       <p className="font-label-lg text-label-lg text-primary uppercase tracking-widest mb-2">Location</p>
       <p className="text-on-surface-variant font-body-lg">26 Onitsha Road, Owerri, Imo State, Nigeria</p>
-      <div className="mt-4 h-48 w-full bg-surface-container-highest flex items-center justify-center grayscale">
-      <span className="material-symbols-outlined text-outline text-4xl" data-icon="map">map</span>
-      <span className="ml-2 font-label-sm text-label-sm">Map visualization for Owerri</span>
+      <div className="mt-4 overflow-hidden rounded-3xl border border-outline-variant/20 shadow-lg">
+        <iframe
+          title="Owerri Location"
+          className="h-72 w-full"
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps?q=Owerri,+Imo+State,+Nigeria&output=embed"
+        ></iframe>
       </div>
       </div>
       </div>
