@@ -18,9 +18,12 @@ export default function Navigation() {
         <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop h-full flex justify-between items-center">
           <div className="flex items-center gap-4">
             <img alt="Slender Stitches Logo" className="h-10 w-auto" src={logoImage} />
-            <span className="hidden md:block font-headline-md text-headline-md text-primary tracking-widest uppercase">
-              SLENDER STITCHES
-            </span>
+            <div className="flex flex-col">
+              <span className="md:hidden font-label-lg text-label-lg text-primary tracking-wide uppercase">Slender Stitches</span>
+              <span className="hidden md:block font-headline-md text-headline-md text-primary tracking-widest uppercase">
+                SLENDER STITCHES
+              </span>
+            </div>
           </div>
 
           <div className="hidden md:flex items-center gap-8">
