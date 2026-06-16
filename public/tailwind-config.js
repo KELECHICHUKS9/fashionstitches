@@ -9,7 +9,14 @@ tailwind.config = {
                         }
                     },
                     "animation": {
-                        "zoom-subtle": "zoom-subtle 20s infinite alternate"
+                        "zoom-subtle": "zoom-subtle 20s infinite alternate",
+                        "blink": "blink 1.2s infinite step-start"
+                    },
+                    "keyframes": {
+                        "blink": {
+                            "0%, 100%": { "opacity": "1" },
+                            "50%": { "opacity": "0" }
+                        }
                     },
                     "colors": {
                         "inverse-on-surface": "#f3f0f0",
