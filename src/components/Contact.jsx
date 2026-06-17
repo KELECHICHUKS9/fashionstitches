@@ -11,7 +11,7 @@ export default function Contact() {
       <div>
       <p className="font-label-lg text-label-lg text-primary uppercase tracking-widest mb-2">Location</p>
       <p className="text-on-surface-variant font-body-lg">26 Onitsha Road, Owerri, Imo State, Nigeria</p>
-      <div className="mt-4 overflow-hidden rounded-3xl border border-outline-variant/20 shadow-lg">
+      <div className="mt-4 overflow-hidden rounded-[40px] border border-outline-variant/25 shadow-sm shadow-slate-400/10">
         <iframe
           title="Owerri Location"
           className="h-72 w-full"

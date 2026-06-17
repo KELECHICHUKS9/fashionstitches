@@ -1,3 +1,6 @@
+import equipmentImage from '../assets/why-choose-equipment.jpeg';
+import gownsImage from '../assets/why-choose-gowns.jpeg';
+
 export default function WhyChooseUs() {
   return (
     <>
@@ -11,10 +14,10 @@ export default function WhyChooseUs() {
       <h4 className="font-label-lg text-label-lg text-primary uppercase">Modern Equipment</h4>
       </div>
       <div className="aspect-square relative overflow-hidden">
-      <img className="w-full h-full object-cover" data-alt="Close-up of a high-end industrial sewing machine in a bright fashion studio, with soft morning light hitting the ivory metal surface. Elegant burgundy fabric with gold embroidery is being meticulously worked on, reflecting the premium editorial style and craftsmanship of the academy." src="https://lh3.googleusercontent.com/aida-public/AB6AXuANcLieO41opmgK5Z_nVtfnMH1Q56VeP9srr450PTqXyumdtT1qCpvPneptm7Co4rUY06-UOsqcuM-WgLRDeeS-XYZmu6oGSenWfuW79GWt6nARNGsAEBowfhzf02nZ1WiOujRwTxXN0FomB-j2SSbAw9HmE0eOjH2oReXIFl9txsRgyCo_fgc1pBikmh_gG-Q7lOPrWQdi72swt1c0HDa051Q0QfilxNvoimTxGjWAhxFKsdWJVlNqB0kGSELzrpnfRElZfzHsZOsa"/>
+      <img className="w-full h-full object-cover" data-alt="Close-up of a high-end industrial sewing machine in a bright fashion studio, with soft morning light hitting the ivory metal surface. Elegant burgundy fabric with gold embroidery is being meticulously worked on, reflecting the premium editorial style and craftsmanship of the academy." src={equipmentImage}/>
       </div>
       <div className="aspect-square relative overflow-hidden">
-      <img className="w-full h-full object-cover" data-alt="A rack of luxurious, avant-garde evening gowns in vibrant colors like deep burgundy and champagne gold, hanging in a minimalist studio space with white walls and natural lighting. The composition is clean and organized, suggesting a high-end pedagogical environment." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCuAmSM1kOnDMxeJh4E3OAMMUSP7g59_FI1Mx7VQG4yACXWA3cBf8ylBtcTa64SukFLqkNiY5sIaA8sUGi8ijTm0iEQ8EeNX07RzCTjTag7rhqDVMX3VSLxjA0yp_u0jZTbT4RxkW2Njuz8YKk72sAPZn1lSgsdtJy048oglbKBPM3I6TrqXEZL54VuiRSgLAcEayvLO2tFkrEVKzBtkJvnKPsZx_gcRIvXuyj8QyzGB_AIOJMiiEqQ0yzSdG-w81TV6tqwF7wbud6G"/>
+      <img className="w-full h-full object-cover" data-alt="A rack of luxurious, avant-garde evening gowns in vibrant colors like deep burgundy and champagne gold, hanging in a minimalist studio space with white walls and natural lighting. The composition is clean and organized, suggesting a high-end pedagogical environment." src={gownsImage}/>
       </div>
       <div className="aspect-square bg-primary flex flex-col justify-center items-center p-8 text-center">
       <span className="material-symbols-outlined text-secondary-fixed text-5xl mb-4" data-icon="workspace_premium">workspace_premium</span>

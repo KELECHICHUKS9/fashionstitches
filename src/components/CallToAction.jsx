@@ -10,20 +10,20 @@ export default function CallToAction() {
       <p className="text-on-primary/70 font-body-lg">Transforming lives through the lens of fashion. Discover the journeys of our successful graduates.</p>
       </div>
       <div className="lg:col-span-8 grid md:grid-cols-2 gap-8 reveal">
-      <div className="bg-surface/10 backdrop-blur-md p-10 relative">
-      <span className="material-symbols-outlined text-secondary-fixed text-4xl opacity-50 absolute top-8 right-8" data-icon="format_quote">format_quote</span>
-      <p className="text-on-primary font-body-lg italic mb-8 leading-relaxed">"Slender Stitches didn't just teach me to sew; they taught me to see. The focus on pattern architectural details changed how I approach my entire brand. I now run a successful atelier in Lagos."</p>
+      <div className="bg-surface/90 backdrop-blur-md p-10 relative rounded-[40px] border border-outline-variant/40 shadow-sm overflow-hidden">
+      <span className="material-symbols-outlined text-secondary text-4xl opacity-40 absolute top-8 right-8" data-icon="format_quote">format_quote</span>
+      <p className="text-black font-body-lg italic mb-8 leading-relaxed">"Slender Stitches didn't just teach me to sew; they taught me to see. The focus on pattern architectural details changed how I approach my entire brand. I now run a successful atelier in Lagos."</p>
       <div>
-      <p className="font-label-lg text-on-primary uppercase tracking-widest">Amaka O. - Class of '23</p>
-      <p className="text-secondary-fixed font-label-sm uppercase">Creative Director, Amaka Luxury</p>
+      <p className="font-label-lg text-black uppercase tracking-widest">Amaka O. - Class of '23</p>
+      <p className="text-black/70 font-label-sm uppercase">Creative Director, Amaka Luxury</p>
       </div>
       </div>
-      <div className="bg-surface/10 backdrop-blur-md p-10 relative">
-      <span className="material-symbols-outlined text-secondary-fixed text-4xl opacity-50 absolute top-8 right-8" data-icon="format_quote">format_quote</span>
-      <p className="text-on-primary font-body-lg italic mb-8 leading-relaxed">"The 9-month program is the best investment I've made for my career. The instructors are incredibly patient and the facilities are world-class. Highly recommended for serious designers."</p>
+      <div className="bg-surface/90 backdrop-blur-md p-10 relative rounded-[40px] border border-outline-variant/40 shadow-sm overflow-hidden">
+      <span className="material-symbols-outlined text-secondary text-4xl opacity-40 absolute top-8 right-8" data-icon="format_quote">format_quote</span>
+      <p className="text-black font-body-lg italic mb-8 leading-relaxed">"The 9-month program is the best investment I've made for my career. The instructors are incredibly patient and the facilities are world-class. Highly recommended for serious designers."</p>
       <div>
-      <p className="font-label-lg text-on-primary uppercase tracking-widest">Chidi E. - Class of '22</p>
-      <p className="text-secondary-fixed font-label-sm uppercase">Founder, CE Designs</p>
+      <p className="font-label-lg text-black uppercase tracking-widest">Chidi E. - Class of '22</p>
+      <p className="text-black/70 font-label-sm uppercase">Founder, CE Designs</p>
       </div>
       </div>
       </div>

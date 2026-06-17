@@ -14,7 +14,7 @@ export default function Navigation() {
 
   return (
     <>
-      <nav className="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-md border-b border-outline-variant/30 transition-all duration-300 h-16">
+      <nav className="fixed top-0 w-full z-50 bg-surface/90 backdrop-blur-md border-b border-outline-variant/30 shadow-sm transition-all duration-300 h-16">
         <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop h-full flex justify-between items-center">
           <div className="flex items-center gap-4">
             <img alt="Slender Stitches Logo" className="h-10 w-auto" src={logoImage} />
@@ -37,7 +37,7 @@ export default function Navigation() {
               </a>
             ))}
             <a
-              className="bg-primary text-on-primary px-6 py-3 rounded-sm font-label-lg text-label-lg hover:bg-primary-container transition-all"
+              className="bg-primary text-on-primary px-6 py-3 rounded-[40px] font-label-lg text-label-lg hover:bg-primary/90 transition-all shadow-sm"
               href="#enroll"
             >
               Enroll Now

@@ -11,9 +11,12 @@ export default function Enroll() {
       <span className="inline-block bg-primary text-on-primary px-4 py-1 font-label-sm text-label-sm uppercase tracking-widest mb-6">July Batch Registration</span>
       <h2 className="font-display-md text-display-md text-primary mb-6">Join Our Next Cohort</h2>
       <p className="text-on-surface-variant font-body-lg mb-8">Secure your spot in the most sought-after fashion academy in Owerri. Limited slots available to ensure personalized attention for every student.</p>
-      <div className="flex items-baseline gap-4 mb-10">
-      <span className="font-label-lg text-label-lg text-outline uppercase tracking-widest">Application Form Fee:</span>
-      <span className="font-display-md text-display-md text-primary">₦5,000</span>
+      <div className="flex flex-col sm:flex-row sm:items-end gap-4 mb-10">
+      <div className="rounded-[40px] border border-outline-variant/40 bg-white/90 px-6 py-5 shadow-sm min-w-[220px]">
+      <span className="block font-label-sm text-label-sm uppercase tracking-widest text-secondary mb-2">Application fee</span>
+      <span className="block font-display-lg text-display-lg text-primary">₦<span className="text-[2.3rem] leading-none">5,000</span></span>
+      </div>
+      <p className="max-w-xl text-on-surface-variant leading-relaxed">Complete your application with this one-time fee and receive priority review for the next intake.</p>
       </div>
       <a className="inline-block bg-primary text-on-primary px-12 py-5 font-label-lg text-label-lg hover:bg-primary-container transition-all uppercase tracking-widest" href="#contact">Register Now</a>
       </div>

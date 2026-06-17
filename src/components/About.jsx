@@ -5,8 +5,8 @@ export default function About() {
       <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid md:grid-cols-12 gap-12 items-center">
       <div className="md:col-span-7 reveal">
       <span className="text-secondary font-label-lg text-label-lg tracking-widest uppercase mb-4 block">The Academy</span>
-      <h2 className="font-display-md text-display-md text-primary mb-8 leading-tight">Elevating Nigerian Couture through Pedagogical Excellence.</h2>
-      <div className="space-y-6 text-on-surface-variant font-body-lg">
+      <h2 className="font-display-md text-display-md text-primary mb-8 leading-tight section-title">Elevating Nigerian Couture through Pedagogical Excellence.</h2>
+      <div className="space-y-6 text-on-surface-variant font-body-lg section-copy">
       <p>At Slender Stitches Fashion Academy, we believe that fashion is more than just clothing-it's an architectural dialogue between the body and the fabric. Our commitment to training next-gen designers is anchored in the fusion of traditional craftsmanship and modern editorial luxury.</p>
       <p>We provide an immersive environment where creative professionals can refine their technical skills under the guidance of industry veterans, ensuring every stitch tells a story of prestige and precision.</p>
       </div>
