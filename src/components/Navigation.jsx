@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import logoImage from '../assets/logo.png';
+import logoImage from '../assets/img3.jpeg';
 
 const links = [
   { label: 'Academy', href: '#about' },
